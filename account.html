@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Create Account</title>
+<link rel="Stylesheet" href="style 2.css">
+</head>
+<body>
+	<div class="card">
+		<h2>Create Account</h2>
+		<form action="/auth/register" method="post">
+		<label for="surname">Surname</label>
+		<input type="text" id="surname" name="surname" placeholder="Surname" required>
+		<label for="other-names">Other names</label>
+		<input type="text" id="other-names" name="other_names" placeholder="Other names" required>
+		<label for="username">Username</label>
+		<input type="text" id="username" name="username" placeholder="Choose a username" autocomplete="username" required>
+		<label for="password">Password</label>
+		<input type="password" id="password" name="password" placeholder="At least 8 characters" autocomplete="new-password" minlength="8" required>
+		<label for="phone">Phone Number</label>
+		<div class="phone-box">
+			<select><option> Uganda +256</option></select>
+				<input type="tel" id="phone" name="phone" placeholder="7734267809" required>
+			</div>
+			<label for="email">Email Address</label>
+			<input type="email" id="email" name="email" placeholder="youremail@gmail.com" required>
+			<p class="small">Don't have an Email? Contact the portal administrator.</p>
+			<div class="check">
+				<input type="checkbox" id="robot-check" name="robot_check" required><label for="robot-check">I'm not a robot</label>
+			</div>
+			<button type="submit">Create Account</button>
+			<p class="small"><a href="/">Back to login</a></p>
+		</form>
+ </body>
+</html>

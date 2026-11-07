@@ -1,0 +1,139 @@
+
+/* General page styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4f8;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login container */
+.Login-container {
+    background: white;
+    width: 400px;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Heading */
+.Login-container h1 {
+    text-align: center;
+    color: #003366;
+    margin-bottom: 10px;
+}
+
+/* Introduction */
+.Login-container p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 25px;
+}
+
+/* Labels */
+form label {
+    display: block;
+    margin-bottom: 7px;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Input fields */
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Input focus effect */
+form input:focus {
+    outline: none;
+    border-color: #0066cc;
+    box-shadow: 0 0 5px rgba(0, 102, 204, 0.3);
+}
+
+/* Login buttons */
+form button {
+    width: 100%;
+    padding: 12px;
+    background: #003366;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+form button:hover {
+    background: #0055aa;
+}
+
+/* Links */
+.links {
+    text-align: right;
+    margin: 10px 0 20px;
+}
+
+.links a {
+    color: #0066cc;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+/* Divider */
+.divider {
+    text-align: center;
+    color: #777;
+    margin: 20px 0;
+    font-size: 14px;
+}
+
+/* Bottom buttons */
+.bottom-btns {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.bottom-btns a {
+    flex: 1;
+    text-align: center;
+    text-decoration: none;
+    padding: 11px 5px;
+    border: 1px solid #003366;
+    border-radius: 6px;
+    color: #003366;
+    font-size: 13px;
+}
+
+.bottom-btns a.blue {
+    background: #003366;
+    color: white;
+}
+
+.bottom-btns a:hover {
+    background: #0055aa;
+    color: white;
+}
+
+/* Footer */
+.footer {
+    margin-top: 25px;
+    font-size: 12px;
+}
